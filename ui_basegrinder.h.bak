@@ -1,0 +1,498 @@
+/********************************************************************************
+** Form generated from reading UI file 'basegrinder.ui'
+**
+** Created by: Qt User Interface Compiler version 5.11.3
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_BASEGRINDER_H
+#define UI_BASEGRINDER_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QIcon>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
+#include <earsetable.h>
+#include <logtable.h>
+#include <losetable.h>
+#include <successtable.h>
+#include <waittable.h>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_basegrinder
+{
+public:
+    QGridLayout *gridLayout_2;
+    QStackedWidget *mainWidget;
+    waittable *waitPage;
+    earsetable *erasingPage;
+    successtable *successPage;
+    losetable *losePage;
+    logtable *loggerPage;
+    QWidget *settingPage;
+    QHBoxLayout *horizontalLayout_3;
+    QWidget *settingBtnControl;
+    QVBoxLayout *verticalLayout;
+    QPushButton *rewordBtn;
+    QPushButton *loggerConBtn;
+    QStackedWidget *setWidget;
+    QWidget *changePassword;
+    QGridLayout *gridLayout_3;
+    QSpacerItem *horizontalSpacer_2;
+    QSpacerItem *verticalSpacer;
+    QSpacerItem *verticalSpacer_2;
+    QSpacerItem *horizontalSpacer;
+    QWidget *widget;
+    QGridLayout *gridLayout;
+    QLabel *label_2;
+    QLineEdit *oldpassword;
+    QLabel *label_3;
+    QLineEdit *newpassword;
+    QLabel *label_4;
+    QLineEdit *newpassword_2;
+    QPushButton *trueBtn;
+    QSpacerItem *horizontalSpacer_5;
+    QPushButton *resetBtn;
+    QWidget *loggerControl;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *detelogBtn;
+    QWidget *topwidget;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *label;
+    QPushButton *waitingBtn;
+    QPushButton *erasingBtn;
+    QPushButton *succrssBtn;
+    QPushButton *loseBtn;
+    QPushButton *loggerBtn;
+    QPushButton *settingBtn;
+    QPushButton *exitBtn;
+
+    void setupUi(QWidget *basegrinder)
+    {
+        if (basegrinder->objectName().isEmpty())
+            basegrinder->setObjectName(QStringLiteral("basegrinder"));
+        basegrinder->setEnabled(true);
+        basegrinder->resize(968, 622);
+        basegrinder->setTabletTracking(false);
+        basegrinder->setAutoFillBackground(false);
+        gridLayout_2 = new QGridLayout(basegrinder);
+        gridLayout_2->setSpacing(0);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        gridLayout_2->setContentsMargins(0, 0, 0, 0);
+        mainWidget = new QStackedWidget(basegrinder);
+        mainWidget->setObjectName(QStringLiteral("mainWidget"));
+        mainWidget->setEnabled(true);
+        mainWidget->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+        waitPage = new waittable();
+        waitPage->setObjectName(QStringLiteral("waitPage"));
+        mainWidget->addWidget(waitPage);
+        erasingPage = new earsetable();
+        erasingPage->setObjectName(QStringLiteral("erasingPage"));
+        mainWidget->addWidget(erasingPage);
+        successPage = new successtable();
+        successPage->setObjectName(QStringLiteral("successPage"));
+        mainWidget->addWidget(successPage);
+        losePage = new losetable();
+        losePage->setObjectName(QStringLiteral("losePage"));
+        mainWidget->addWidget(losePage);
+        loggerPage = new logtable();
+        loggerPage->setObjectName(QStringLiteral("loggerPage"));
+        mainWidget->addWidget(loggerPage);
+        settingPage = new QWidget();
+        settingPage->setObjectName(QStringLiteral("settingPage"));
+        horizontalLayout_3 = new QHBoxLayout(settingPage);
+        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        settingBtnControl = new QWidget(settingPage);
+        settingBtnControl->setObjectName(QStringLiteral("settingBtnControl"));
+        settingBtnControl->setStyleSheet(QStringLiteral(""));
+        verticalLayout = new QVBoxLayout(settingBtnControl);
+        verticalLayout->setSpacing(0);
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setSizeConstraint(QLayout::SetDefaultConstraint);
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        rewordBtn = new QPushButton(settingBtnControl);
+        rewordBtn->setObjectName(QStringLiteral("rewordBtn"));
+        QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Fixed);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(rewordBtn->sizePolicy().hasHeightForWidth());
+        rewordBtn->setSizePolicy(sizePolicy);
+        rewordBtn->setMinimumSize(QSize(0, 0));
+        rewordBtn->setMaximumSize(QSize(115, 44));
+        rewordBtn->setFocusPolicy(Qt::NoFocus);
+        rewordBtn->setAutoFillBackground(false);
+        rewordBtn->setStyleSheet(QStringLiteral(""));
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/back/release/wordcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        rewordBtn->setIcon(icon);
+        rewordBtn->setIconSize(QSize(120, 50));
+        rewordBtn->setCheckable(false);
+        rewordBtn->setAutoExclusive(true);
+        rewordBtn->setAutoDefault(false);
+        rewordBtn->setFlat(true);
+
+        verticalLayout->addWidget(rewordBtn);
+
+        loggerConBtn = new QPushButton(settingBtnControl);
+        loggerConBtn->setObjectName(QStringLiteral("loggerConBtn"));
+        loggerConBtn->setMaximumSize(QSize(115, 44));
+        loggerConBtn->setFocusPolicy(Qt::NoFocus);
+        loggerConBtn->setAutoFillBackground(false);
+        loggerConBtn->setStyleSheet(QStringLiteral(""));
+        QIcon icon1;
+        icon1.addFile(QStringLiteral(":/back/release/logcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        loggerConBtn->setIcon(icon1);
+        loggerConBtn->setIconSize(QSize(120, 50));
+        loggerConBtn->setCheckable(false);
+        loggerConBtn->setAutoExclusive(true);
+        loggerConBtn->setAutoDefault(false);
+        loggerConBtn->setFlat(true);
+
+        verticalLayout->addWidget(loggerConBtn);
+
+
+        horizontalLayout_3->addWidget(settingBtnControl);
+
+        setWidget = new QStackedWidget(settingPage);
+        setWidget->setObjectName(QStringLiteral("setWidget"));
+        setWidget->setStyleSheet(QStringLiteral("background-color: rgb(245, 245, 245);"));
+        changePassword = new QWidget();
+        changePassword->setObjectName(QStringLiteral("changePassword"));
+        gridLayout_3 = new QGridLayout(changePassword);
+        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
+        horizontalSpacer_2 = new QSpacerItem(206, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout_3->addItem(horizontalSpacer_2, 1, 2, 1, 1);
+
+        verticalSpacer = new QSpacerItem(20, 174, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        gridLayout_3->addItem(verticalSpacer, 2, 1, 1, 1);
+
+        verticalSpacer_2 = new QSpacerItem(20, 175, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        gridLayout_3->addItem(verticalSpacer_2, 0, 1, 1, 1);
+
+        horizontalSpacer = new QSpacerItem(207, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout_3->addItem(horizontalSpacer, 1, 0, 1, 1);
+
+        widget = new QWidget(changePassword);
+        widget->setObjectName(QStringLiteral("widget"));
+        widget->setMaximumSize(QSize(300, 180));
+        widget->setStyleSheet(QStringLiteral("background-color: rgb(199, 199, 199);"));
+        gridLayout = new QGridLayout(widget);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        label_2 = new QLabel(widget);
+        label_2->setObjectName(QStringLiteral("label_2"));
+        QFont font;
+        font.setPointSize(12);
+        font.setBold(false);
+        font.setWeight(50);
+        font.setKerning(true);
+        label_2->setFont(font);
+
+        gridLayout->addWidget(label_2, 0, 0, 1, 1);
+
+        oldpassword = new QLineEdit(widget);
+        oldpassword->setObjectName(QStringLiteral("oldpassword"));
+        oldpassword->setMaximumSize(QSize(300, 30));
+        oldpassword->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+
+        gridLayout->addWidget(oldpassword, 0, 2, 1, 1);
+
+        label_3 = new QLabel(widget);
+        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setFont(font);
+
+        gridLayout->addWidget(label_3, 1, 0, 1, 1);
+
+        newpassword = new QLineEdit(widget);
+        newpassword->setObjectName(QStringLiteral("newpassword"));
+        newpassword->setMaximumSize(QSize(300, 30));
+        newpassword->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+        newpassword->setEchoMode(QLineEdit::Password);
+        newpassword->setDragEnabled(false);
+        newpassword->setReadOnly(false);
+
+        gridLayout->addWidget(newpassword, 1, 2, 1, 1);
+
+        label_4 = new QLabel(widget);
+        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setFont(font);
+
+        gridLayout->addWidget(label_4, 2, 0, 1, 1);
+
+        newpassword_2 = new QLineEdit(widget);
+        newpassword_2->setObjectName(QStringLiteral("newpassword_2"));
+        newpassword_2->setMaximumSize(QSize(300, 30));
+        newpassword_2->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+        newpassword_2->setEchoMode(QLineEdit::Password);
+        newpassword_2->setDragEnabled(false);
+        newpassword_2->setReadOnly(false);
+
+        gridLayout->addWidget(newpassword_2, 2, 2, 1, 1);
+
+        trueBtn = new QPushButton(widget);
+        trueBtn->setObjectName(QStringLiteral("trueBtn"));
+        trueBtn->setMaximumSize(QSize(100, 25));
+        QIcon icon2;
+        icon2.addFile(QStringLiteral(":/back/release/wordtrue.png"), QSize(), QIcon::Normal, QIcon::Off);
+        trueBtn->setIcon(icon2);
+        trueBtn->setIconSize(QSize(125, 65));
+        trueBtn->setFlat(true);
+
+        gridLayout->addWidget(trueBtn, 3, 0, 1, 1);
+
+        horizontalSpacer_5 = new QSpacerItem(27, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer_5, 3, 1, 1, 1);
+
+        resetBtn = new QPushButton(widget);
+        resetBtn->setObjectName(QStringLiteral("resetBtn"));
+        resetBtn->setMaximumSize(QSize(100, 25));
+        resetBtn->setLayoutDirection(Qt::RightToLeft);
+        QIcon icon3;
+        icon3.addFile(QStringLiteral(":/back/release/wordreset.png"), QSize(), QIcon::Normal, QIcon::Off);
+        resetBtn->setIcon(icon3);
+        resetBtn->setIconSize(QSize(125, 65));
+
+        gridLayout->addWidget(resetBtn, 3, 2, 1, 1);
+
+
+        gridLayout_3->addWidget(widget, 1, 1, 1, 1);
+
+        setWidget->addWidget(changePassword);
+        loggerControl = new QWidget();
+        loggerControl->setObjectName(QStringLiteral("loggerControl"));
+        horizontalLayout = new QHBoxLayout(loggerControl);
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        detelogBtn = new QPushButton(loggerControl);
+        detelogBtn->setObjectName(QStringLiteral("detelogBtn"));
+        detelogBtn->setMaximumSize(QSize(105, 28));
+        QFont font1;
+        font1.setBold(true);
+        font1.setUnderline(false);
+        font1.setWeight(75);
+        detelogBtn->setFont(font1);
+        detelogBtn->setAutoFillBackground(false);
+        detelogBtn->setStyleSheet(QStringLiteral(""));
+        QIcon icon4;
+        icon4.addFile(QStringLiteral(":/back/release/detelog.png"), QSize(), QIcon::Normal, QIcon::Off);
+        detelogBtn->setIcon(icon4);
+        detelogBtn->setIconSize(QSize(125, 65));
+        detelogBtn->setFlat(true);
+
+        horizontalLayout->addWidget(detelogBtn);
+
+        setWidget->addWidget(loggerControl);
+
+        horizontalLayout_3->addWidget(setWidget);
+
+        mainWidget->addWidget(settingPage);
+
+        gridLayout_2->addWidget(mainWidget, 1, 0, 1, 2);
+
+        topwidget = new QWidget(basegrinder);
+        topwidget->setObjectName(QStringLiteral("topwidget"));
+        topwidget->setMaximumSize(QSize(16777215, 100));
+        topwidget->setAutoFillBackground(false);
+        topwidget->setStyleSheet(QStringLiteral("background-image: url(:/back/release/topbackground.png);"));
+        horizontalLayout_2 = new QHBoxLayout(topwidget);
+        horizontalLayout_2->setSpacing(0);
+        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
+        label = new QLabel(topwidget);
+        label->setObjectName(QStringLiteral("label"));
+        label->setEnabled(true);
+        label->setMaximumSize(QSize(180, 50));
+        label->setPixmap(QPixmap(QString::fromUtf8(":/back/release/logo.png")));
+        label->setScaledContents(true);
+        label->setWordWrap(false);
+
+        horizontalLayout_2->addWidget(label);
+
+        waitingBtn = new QPushButton(topwidget);
+        waitingBtn->setObjectName(QStringLiteral("waitingBtn"));
+        waitingBtn->setEnabled(true);
+        QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Expanding);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(waitingBtn->sizePolicy().hasHeightForWidth());
+        waitingBtn->setSizePolicy(sizePolicy1);
+        waitingBtn->setMaximumSize(QSize(80, 80));
+        waitingBtn->setMouseTracking(false);
+        waitingBtn->setFocusPolicy(Qt::StrongFocus);
+        waitingBtn->setAutoFillBackground(false);
+        QIcon icon5;
+        icon5.addFile(QStringLiteral(":/back/release/wait.png"), QSize(), QIcon::Normal, QIcon::Off);
+        waitingBtn->setIcon(icon5);
+        waitingBtn->setIconSize(QSize(100, 100));
+        waitingBtn->setCheckable(false);
+        waitingBtn->setChecked(false);
+        waitingBtn->setAutoExclusive(true);
+        waitingBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(waitingBtn);
+
+        erasingBtn = new QPushButton(topwidget);
+        erasingBtn->setObjectName(QStringLiteral("erasingBtn"));
+        sizePolicy1.setHeightForWidth(erasingBtn->sizePolicy().hasHeightForWidth());
+        erasingBtn->setSizePolicy(sizePolicy1);
+        erasingBtn->setMaximumSize(QSize(80, 80));
+        erasingBtn->setFocusPolicy(Qt::StrongFocus);
+        erasingBtn->setAutoFillBackground(false);
+        QIcon icon6;
+        icon6.addFile(QStringLiteral(":/back/release/erase.png"), QSize(), QIcon::Normal, QIcon::Off);
+        erasingBtn->setIcon(icon6);
+        erasingBtn->setIconSize(QSize(100, 100));
+        erasingBtn->setCheckable(false);
+        erasingBtn->setChecked(false);
+        erasingBtn->setAutoExclusive(true);
+        erasingBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(erasingBtn);
+
+        succrssBtn = new QPushButton(topwidget);
+        succrssBtn->setObjectName(QStringLiteral("succrssBtn"));
+        sizePolicy1.setHeightForWidth(succrssBtn->sizePolicy().hasHeightForWidth());
+        succrssBtn->setSizePolicy(sizePolicy1);
+        succrssBtn->setMaximumSize(QSize(80, 80));
+        succrssBtn->setFocusPolicy(Qt::StrongFocus);
+        succrssBtn->setAutoFillBackground(false);
+        QIcon icon7;
+        icon7.addFile(QStringLiteral(":/back/release/success.png"), QSize(), QIcon::Normal, QIcon::Off);
+        succrssBtn->setIcon(icon7);
+        succrssBtn->setIconSize(QSize(100, 100));
+        succrssBtn->setCheckable(false);
+        succrssBtn->setChecked(false);
+        succrssBtn->setAutoExclusive(true);
+        succrssBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(succrssBtn);
+
+        loseBtn = new QPushButton(topwidget);
+        loseBtn->setObjectName(QStringLiteral("loseBtn"));
+        sizePolicy1.setHeightForWidth(loseBtn->sizePolicy().hasHeightForWidth());
+        loseBtn->setSizePolicy(sizePolicy1);
+        loseBtn->setMaximumSize(QSize(80, 80));
+        loseBtn->setAutoFillBackground(false);
+        QIcon icon8;
+        icon8.addFile(QStringLiteral(":/back/release/lose.png"), QSize(), QIcon::Normal, QIcon::Off);
+        loseBtn->setIcon(icon8);
+        loseBtn->setIconSize(QSize(100, 100));
+        loseBtn->setAutoExclusive(true);
+        loseBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(loseBtn);
+
+        loggerBtn = new QPushButton(topwidget);
+        loggerBtn->setObjectName(QStringLiteral("loggerBtn"));
+        sizePolicy1.setHeightForWidth(loggerBtn->sizePolicy().hasHeightForWidth());
+        loggerBtn->setSizePolicy(sizePolicy1);
+        loggerBtn->setMaximumSize(QSize(80, 80));
+        loggerBtn->setFocusPolicy(Qt::StrongFocus);
+        loggerBtn->setAutoFillBackground(false);
+        QIcon icon9;
+        icon9.addFile(QStringLiteral(":/back/release/logger.png"), QSize(), QIcon::Normal, QIcon::Off);
+        loggerBtn->setIcon(icon9);
+        loggerBtn->setIconSize(QSize(100, 100));
+        loggerBtn->setCheckable(false);
+        loggerBtn->setChecked(false);
+        loggerBtn->setAutoExclusive(true);
+        loggerBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(loggerBtn);
+
+        settingBtn = new QPushButton(topwidget);
+        settingBtn->setObjectName(QStringLiteral("settingBtn"));
+        sizePolicy1.setHeightForWidth(settingBtn->sizePolicy().hasHeightForWidth());
+        settingBtn->setSizePolicy(sizePolicy1);
+        settingBtn->setMaximumSize(QSize(80, 80));
+        settingBtn->setFocusPolicy(Qt::StrongFocus);
+        settingBtn->setAutoFillBackground(false);
+        QIcon icon10;
+        icon10.addFile(QStringLiteral(":/back/release/set.png"), QSize(), QIcon::Normal, QIcon::Off);
+        settingBtn->setIcon(icon10);
+        settingBtn->setIconSize(QSize(100, 100));
+        settingBtn->setCheckable(false);
+        settingBtn->setChecked(false);
+        settingBtn->setAutoExclusive(true);
+        settingBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(settingBtn);
+
+        exitBtn = new QPushButton(topwidget);
+        exitBtn->setObjectName(QStringLiteral("exitBtn"));
+        sizePolicy1.setHeightForWidth(exitBtn->sizePolicy().hasHeightForWidth());
+        exitBtn->setSizePolicy(sizePolicy1);
+        exitBtn->setMaximumSize(QSize(40, 40));
+        QIcon icon11;
+        icon11.addFile(QStringLiteral(":/back/release/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
+        exitBtn->setIcon(icon11);
+        exitBtn->setIconSize(QSize(50, 50));
+        exitBtn->setAutoExclusive(true);
+        exitBtn->setFlat(true);
+
+        horizontalLayout_2->addWidget(exitBtn);
+
+
+        gridLayout_2->addWidget(topwidget, 0, 0, 1, 2);
+
+
+        retranslateUi(basegrinder);
+
+        mainWidget->setCurrentIndex(5);
+        rewordBtn->setDefault(false);
+        loggerConBtn->setDefault(false);
+        setWidget->setCurrentIndex(0);
+
+
+        QMetaObject::connectSlotsByName(basegrinder);
+    } // setupUi
+
+    void retranslateUi(QWidget *basegrinder)
+    {
+        basegrinder->setWindowTitle(QApplication::translate("basegrinder", "Form", nullptr));
+        rewordBtn->setText(QString());
+        loggerConBtn->setText(QString());
+        label_2->setText(QApplication::translate("basegrinder", "\350\257\267\350\276\223\345\205\245\345\216\237\345\257\206\347\240\201:", nullptr));
+        label_3->setText(QApplication::translate("basegrinder", "\350\257\267\350\276\223\345\205\245\346\226\260\345\257\206\347\240\201:", nullptr));
+        label_4->setText(QApplication::translate("basegrinder", "\345\206\215\346\254\241\350\276\223\345\205\245\346\226\260\345\257\206\347\240\201:", nullptr));
+        trueBtn->setText(QString());
+        resetBtn->setText(QString());
+        detelogBtn->setText(QString());
+#ifndef QT_NO_STATUSTIP
+        topwidget->setStatusTip(QString());
+#endif // QT_NO_STATUSTIP
+#ifndef QT_NO_ACCESSIBILITY
+        topwidget->setAccessibleDescription(QString());
+#endif // QT_NO_ACCESSIBILITY
+        label->setText(QString());
+        waitingBtn->setText(QString());
+        erasingBtn->setText(QString());
+        succrssBtn->setText(QString());
+        loseBtn->setText(QString());
+        loggerBtn->setText(QString());
+        settingBtn->setText(QString());
+        exitBtn->setText(QString());
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class basegrinder: public Ui_basegrinder {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_BASEGRINDER_H

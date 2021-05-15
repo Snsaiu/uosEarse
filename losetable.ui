@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>losetable</class>
+ <widget class="QWidget" name="losetable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>716</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTableWidget" name="losetableWidget">
+     <column>
+      <property name="text">
+       <string>硬盘型号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>序列号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>路径</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>容量</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>失败原因</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>端口</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>时间</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

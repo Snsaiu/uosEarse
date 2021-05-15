@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/back">
+        <file>release/plugins/imageformats/libqgif.so</file>
+        <file>release/plugins/imageformats/libqico.so</file>
+        <file>release/plugins/imageformats/libqjpeg.so</file>
+        <file>release/plugins/imageformats/libqmng.so</file>
+        <file>release/plugins/imageformats/libqsvg.so</file>
+        <file>release/plugins/imageformats/libqtga.so</file>
+        <file>release/plugins/imageformats/libqtiff.so</file>
+        <file>release/detelog.png</file>
+        <file>release/erase.png</file>
+        <file>release/eraseCh.png</file>
+        <file>release/exit.png</file>
+        <file>release/logcon.png</file>
+        <file>release/logconCh.png</file>
+        <file>release/logger.png</file>
+        <file>release/loggerCh.png</file>
+        <file>release/loginBack.jpg</file>
+        <file>release/loginBtn.png</file>
+        <file>release/logo.png</file>
+        <file>release/lose.png</file>
+        <file>release/loseCh.png</file>
+        <file>release/resetBtn.png</file>
+        <file>release/set.png</file>
+        <file>release/setCh.png</file>
+        <file>release/success.png</file>
+        <file>release/successCh.png</file>
+        <file>release/user.png</file>
+        <file>release/userch.png</file>
+        <file>release/wait.png</file>
+        <file>release/waitCh.png</file>
+        <file>release/word.png</file>
+        <file>release/wordch.png</file>
+        <file>release/wordcon.png</file>
+        <file>release/wordconCh.png</file>
+        <file>release/wordreset.png</file>
+        <file>release/wordtrue.png</file>
+        <file>release/topbackground.png</file>
+        <file>release/choosetrue.png</file>
+        <file>release/stopcanel.png</file>
+        <file>release/stoptrue.png</file>
+        <file>release/loginSetFalse.png</file>
+        <file>release/loginSetTrue.png</file>
+        <file>release/outlog.png</file>
+    </qresource>
+</RCC>

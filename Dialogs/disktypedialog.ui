@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>diskTypeDialog</class>
+ <widget class="QDialog" name="diskTypeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>请选择硬盘类型</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>9</y>
+     <width>631</width>
+     <height>329</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>密级</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="secretCbox">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="currentText">
+           <string>普通</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>普通</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>秘密</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>机密</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>绝密</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>端口号</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PortComboBox">
+          <item>
+           <property name="text">
+            <string>端口1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口9</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口10</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口11</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>端口12</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>介质类型</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="diskTypeCbox">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="modelColumn">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>SAS</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SATA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FC</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ISCI</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>USB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>USB盘</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>光纤</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>IC卡</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>IDE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SD卡</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>序列号</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="seriTxt">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>型号</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="modeTxt">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>原用途</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="diskPurposeTxt">
+        <property name="placeholderText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>介质去向</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="diskDirectionTxt">
+        <property name="placeholderText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QPushButton" name="okResultBtn">
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cancelBtn">
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
